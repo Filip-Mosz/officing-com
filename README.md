@@ -43,3 +43,44 @@ System optymalizujący zarządzanie przestrzenią biurową i dostępem do sprzę
 - znajdowanie dostępnej przestrzeni biurowej
 
 ## SIDENOTE killer app: https://pl.wikipedia.org/wiki/Killer_application
+Prowadzący przedstawiał to jako przykuwajacy uwage element, mający być atutem w porównaniu do konkurencji
+
+## Zadanie 2.
+### pkt 1. Struktura systemu
+- rdzeń apki na serwerze
+- baza danych
+- moduł dostępnych zasobów
+- rezerwacja
+- analiza zajętości stanowisk (stany i historia)
+- konto klienta
+- płatnosci
+
+### pkt 2. Analiza funkcjonalna (max. 30)
+- rejestracja
+- rezerwacja
+- rezerwacja bez konta
+- potwierdzenie rezerwacji
+- wyszukiwanie wolnych stanowisk
+- generowanie raportów
+- ustalanie zasad wynajmu
+- śledzenie stanu technicznego
+- wdrażanie i egzekwowanie polityk pracowniczych
+- oferowanie zdjęć stanowiskaocenianie stanowiska (rating)
+- powiadomienia (push/sms) o zbliżajacym się końcu czasu
+- mapka dotarcia dostanowiska
+- system znizek (opcja)
+- "powiadom o dostępnosci"
+- personalizacja interfejsu
+- formularz kontaktu
+- czat AI
+- możliwość wyłączenia czata AI
+- zgłoszenie stanu po obecności poprzedniego użytkownika
+- informacja o dostępności dla osób niepełnosprawnych
+- LLM odpowiada na maile -> zabezpieczyć przed prompt injection -> llm skraca treść i wysyła z odpowiednim tytułem oraz odpowiada nadawcy zapewniajac o podjęciu działań
+
+### pkt 3. Analiza niefunkcjonalna (cechy)
+- ciemny / jasny intefejs
+- zabezpieczenie płatności
+- centralny rdzeń
+- dostęp przez przeglądarkę i apki (desktop i mobile)
+- czytelny (nie skomplikowany) interfejs; w tym dla niedowidzących
