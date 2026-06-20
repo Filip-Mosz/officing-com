@@ -84,3 +84,28 @@ Prowadzący przedstawiał to jako przykuwajacy uwage element, mający być atute
 - centralny rdzeń
 - dostęp przez przeglądarkę i apki (desktop i mobile)
 - czytelny (nie skomplikowany) interfejs; w tym dla niedowidzących
+
+## Zadanie 3.
+### pkt 1. Wyestymuj w skali punktowej (ilość napojów energetycznych, potrzebnych podczas implementacji)
+- rejestracja 0,3
+- rezerwacja 1,5
+- rezerwacja bez konta 2
+- potwierdzenie rezerwacji    0,1
+- wyszukiwanie wolnych stanowisk  0,1
+- generowanie raportów          0,5
+- ustalanie zasad wynajmu   1
+- śledzenie stanu technicznego  1
+- wdrażanie i egzekwowanie polityk pracowniczych  10
+- oferowanie zdjęć stanowiskaocenianie stanowiska (rating)  0,3
+- powiadomienia (push/sms) o zbliżajacym się końcu czasu  2,5
+- mapka dotarcia dostanowiska   0,2
+- system znizek (opcja)  0,1
+- "powiadom o dostępnosci"  3
+- personalizacja interfejsu  3
+- formularz kontaktu  0,2
+- czat AI  30
+- możliwość wyłączenia czata AI  0,1
+- zgłoszenie stanu po obecności poprzedniego użytkownika  0,2
+- informacja o dostępności dla osób niepełnosprawnych  0,1
+- LLM odpowiada na maile -> zabezpieczyć przed prompt injection -> llm skraca treść i wysyła z odpowiednim tytułem oraz odpowiada nadawcy zapewniajac o podjęciu działań  25
+  
